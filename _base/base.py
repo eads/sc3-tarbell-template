@@ -8,6 +8,7 @@ import markdown as Markdown
 import os
 from scrubber import Scrubber
 
+NAME = "Supreme Chi-Town Coding Crew project template"
 
 class TarbellScrubber(Scrubber):
     disallowed_tags_save_content = set((
